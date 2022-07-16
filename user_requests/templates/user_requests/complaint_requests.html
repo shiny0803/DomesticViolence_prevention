@@ -1,0 +1,28 @@
+{% load static %}
+{% include 'accounts/main.html' %}
+
+{% block content %}
+
+<div class="container mt-5 mb-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+            {% for complaint_request in complaint_requests %}
+            <div class="row p-2 bg-white border rounded">
+                <div class="col-md-6 mt-1">
+                    <h5>{{complaint_request.requested_by}}</h5>
+                    <div class="d-flex flex-row">
+                    </div>
+                    <p class="text-justify para mb-0">{{complaint_request.request_note}}<br><br></p>
+                    <a href="{% url 'complaints:show-complaint-detail' complaint_request.complaint.id %}">
+                        <button class="btn btn-success" style="position: relative;">
+                        O
+                        </button>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

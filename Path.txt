@@ -1,0 +1,63 @@
+Explore
+-- Explore Detail (Done)
+-- All details (Done)
+-- Updates (Done)
+-- Comments (Done)
+-- Upvotes
+-- Activists looking into
+
+Auth
+-- Docs upload (Done)
+-- Roles (Done)
+-- Complete auth (Done)
+
+Profile
+-- Name, email, phone, other, profile, role, description, address (Done)
+-- Docs preview (Done)
+-- Docs download (Done)
+-- Status (Done)
+-- Contact Requests (Done)
+(Later)
+-- Contact Request with Note
+
+Complaint
+-- Complete creation (Done)
+
+Complaint Detail
+-- Title (Done)
+-- Tags (Done)
+-- Place (Done)
+-- Photo (Done)
+-- User (Done)
+-- Description (Done)
+-- Send contact info request to user (Done)
+-- Share (Done)
+-- Activists investigating
+-- Investigate
+-- Report
+-- Comments
+-- Updates
+-- Upvotes
+
+Normal Users
+-- Contact Requests (Done)
+-- Previous Complaint
+
+Activists
+-- Complaint Requests (Done)
+
+interfaces, algorithms, design patterns, relational databases, MVC/MVC-2, OOPS, cookies, HTTP requests, session & authentication,
+and authorization
+
+
+
+
+
+
+
+
+
+
+
+
+
